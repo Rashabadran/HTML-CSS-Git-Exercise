@@ -2,9 +2,9 @@
 #first-message {
   background-color: red;
 }
-#message__author {
+article {
   background-color: cadetblue;
 }
-#message--latest {
+.message--latest {
   background-color: yellow;
 }
