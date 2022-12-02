@@ -3,3 +3,49 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  margin-right: 280px;
+  align-items: flex-end;
+  padding-left: 85px;
+}
+.countries--second {
+  margin-right: 280px;
+  align-items: flex-end;
+  padding-left: 50px;
+  padding-right: 50px;
+  flex-direction: row-reverse;
+}
+.countries--third {
+  margin-right: 280px;
+  align-items: flex-start;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.countries--third :first-child {
+  align-self: flex-end;
+}
+.countries--fourth {
+  margin-right: 280px;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+}
+.countries--fourth :nth-child(3) {
+  align-self: center;
+}
+.countries--fourth :nth-child(4) {
+  align-self: center;
+}
+.countries--fifth {
+  margin-right: 280px;
+  align-items: flex-end;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+.countries--fifth :nth-child(4) {
+  order: 5;
+}
+.countries--fifth :nth-child(5) {
+  order: 4;
+  align-self: center;
+}
