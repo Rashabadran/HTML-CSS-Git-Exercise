@@ -3,3 +3,26 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  margin-right: 310px;
+  flex-direction: row;
+}
+.countries--second {
+  align-items: center;
+  margin-right: 310px;
+  flex-direction: row;
+}
+.countries--third {
+  margin-right: 310px;
+  flex-direction: row-reverse;
+  padding-right: 60px;
+}
+.countries--first :first-child {
+  order: 4;
+}
+.countries--second :nth-child(1) {
+  order: 4;
+}
+.countries--second :nth-child(5) {
+  order: 5;
+}
