@@ -3,3 +3,53 @@
 }
 
 /* Add your own CSS code below */
+.countries--first {
+  margin-right: 310px;
+}
+.countries--first .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--second {
+  align-items: center;
+  margin-right: 310px;
+}
+.countries--second .country--ethiopia {
+  align-self: flex-end;
+}
+.countries--third :nth-child(2) {
+  align-self: flex-end;
+}
+.countries--third :nth-child(3) {
+  align-self: flex-end;
+}
+.countries--third :nth-child(4) {
+  align-self: flex-end;
+}
+.countries--third :first-child {
+  align-self: flex-start;
+}
+.countries--third :last-child {
+  align-self: flex-start;
+}
+.countries--third {
+  margin-right: 310px;
+}
+.countries--fourth {
+  margin-right: 310px;
+  flex-direction: column;
+}
+.countries--fourth :last-child {
+  align-self: center;
+}
+.countries--fourth :nth-child(1) {
+  align-self: flex-start;
+}
+.countries--fourth :nth-child(2) {
+  align-self: flex-start;
+}
+.countries--fourth :nth-child(3) {
+  align-self: flex-start;
+}
+.countries--fourth :nth-child(4) {
+  align-self: flex-start;
+}
